@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.CAMERA
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:15:22-64
+uses-feature#android.hardware.camera
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:17:5-19:35
+	android:required
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:19:9-32
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:18:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:21:9-57
+uses-feature#android.hardware.camera.front
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:24:9-53
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:27:9-63
+application
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:30:5-54:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:33:9-41
+	android:largeHeap
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:34:9-33
+	android:icon
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:32:9-45
+	android:allowBackup
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:31:9-35
+	android:theme
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:35:9-67
+activity#com.compa.readerocr.LoginActivity
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:36:9-45:20
+	android:screenOrientation
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:37:13-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:43:27-74
+activity#com.compa.readerocr.AndroidCamera
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:48:13-61
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:47:13-61
+activity#com.compa.readerocr.RecognizeTextActivity
+ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:52:13-61
+	android:name
+		ADDED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:51:13-69
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\9cb05d7f1257c711d9bf3e76580c17c2\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\aee00cf6aaac8c1995cb160c2c5ac569\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1cf3e5f4416152ff7ea449db40aae399\AndroidManifest.xml:26:9-47
