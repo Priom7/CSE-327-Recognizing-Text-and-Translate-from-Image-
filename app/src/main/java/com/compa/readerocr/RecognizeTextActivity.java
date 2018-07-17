@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -24,9 +25,12 @@ import android.widget.EditText;
 import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
 
+import com.compa.readerocr.TranslatiorBackgroundTask.TranslatiorBackgroundTask;
 import com.compa.readerocr.utils.CharDetectOCR;
 import com.compa.readerocr.utils.CommonUtils;
 import com.compa.readerocr.view.TouchImageView;
+
+import java.util.concurrent.ExecutionException;
 
 import static com.compa.readerocr.utils.CommonUtils.info;
 
@@ -39,8 +43,11 @@ public class RecognizeTextActivity extends Activity {
 	static int REQUEST_IMAGE_CAPTURE = 1;
 	static ProcessImage processImg = new ProcessImage();
 
+	Context context=this;
 	Button btnStartCamera;
 	Button btnExit;
+	TextView tv;
+	Button Tbtn;
 
 	private String language;
 	private TouchImageView image;
@@ -67,6 +74,42 @@ public class RecognizeTextActivity extends Activity {
 
 		btnStartCamera = (Button) findViewById(R.id.btnStartCamera);
 		btnExit = (Button) findViewById(R.id.btnExit);
+
+		tv = (TextView) findViewById(R.id.translation);
+		Tbtn = (Button) findViewById(R.id.translation_btn);
+
+		Tbtn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				String  textToBeTranslated = recognizeResult.getText().toString();
+				String languagePair = "en-bn";
+				String res = Translate(textToBeTranslated,languagePair);
+				tv.setText(res);
+			}
+
+			protected String Translate(String textToBeTranslated, String languagePair) {
+
+
+				TranslatiorBackgroundTask translatorBackgroundTask= new TranslatiorBackgroundTask(context);
+				String translationResult = null;
+				try {
+					translationResult = translatorBackgroundTask.execute(textToBeTranslated ,languagePair).get();
+					return translationResult;
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				} catch (ExecutionException e) {
+					e.printStackTrace();
+				}
+
+				//Log.d("Translation Result",translationResult); // Logs the result in Android Monitor
+				// tv.setText(translationResult);
+
+
+				return null;
+			}
+		});
+
+
 
 		btnStartCamera.setOnTouchListener(new OnTouchListener() {
 

@@ -35,10 +35,10 @@ public final class R {
     public static final int languageSpiner=0x7f040007;
     public static final int menu_settings=0x7f040008;
     public static final int recognize_result=0x7f040009;
-    public static final int result2=0x7f04000a;
-    public static final int takepicture=0x7f04000b;
-    public static final int thresholdText=0x7f04000c;
-    public static final int translate=0x7f04000d;
+    public static final int takepicture=0x7f04000a;
+    public static final int thresholdText=0x7f04000b;
+    public static final int translation=0x7f04000c;
+    public static final int translation_btn=0x7f04000d;
   }
   public static final class layout {
     public static final int activity_android_camera=0x7f050000;
