@@ -51,7 +51,7 @@ public class RecognizeTextActivity extends Activity {
 
 	private String language;
 	private TouchImageView image;
-	private EditText recognizeResult; // We are going to use this result
+	private EditText recognizeResult; // We are going to use this result//
 
 	private int sourceW = 0;
 	private int sourceH = 0;
