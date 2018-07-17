@@ -29,6 +29,21 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:hint="@string/text_hint_result" />
+
+        <Button
+            android:id="@+id/translation_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="Translate"/>
+
+        <TextView
+            android:id="@+id/translation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:hint="Result"
+            android:gravity="center"/>
     </LinearLayout>
 
     <Button
