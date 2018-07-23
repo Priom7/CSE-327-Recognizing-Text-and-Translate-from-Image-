@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1531841539065"
+    timestamp="1532365252755"
     token="1920772299175643969"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,10 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="154" />
+        duration="148" />
     <task
         name="verifier"
-        duration="149" />
+        duration="103" />
 
     <artifact
         location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -30,34 +30,34 @@
         location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
         location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1531841539065"
+        timestamp="1532365252755"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -74,34 +74,34 @@
             location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="D:\Study\Projects\App\AndroidRecognizeText-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"

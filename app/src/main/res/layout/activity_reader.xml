@@ -44,6 +44,34 @@
             android:layout_margin="20dp"
             android:hint="Result"
             android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            android:textSize="26sp"
+            android:textStyle="normal"
+            android:hint="Listening..."
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/btnSpeak"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:onClick="getSpeechInput"
+            android:src="@drawable/ic_mic"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/speechResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result..."
+            android:gravity="center"/>
     </LinearLayout>
 
     <Button

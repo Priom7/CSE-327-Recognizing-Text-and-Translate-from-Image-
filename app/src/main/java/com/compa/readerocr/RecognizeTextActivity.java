@@ -14,6 +14,7 @@ import android.graphics.Matrix;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.speech.RecognizerIntent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,12 +25,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.compa.readerocr.TranslatiorBackgroundTask.TranslatiorBackgroundTask;
 import com.compa.readerocr.utils.CharDetectOCR;
 import com.compa.readerocr.utils.CommonUtils;
 import com.compa.readerocr.view.TouchImageView;
 
+import java.util.ArrayList;
+import java.util.Locale;
 import java.util.concurrent.ExecutionException;
 
 import static com.compa.readerocr.utils.CommonUtils.info;
@@ -57,6 +61,8 @@ public class RecognizeTextActivity extends Activity {
 	private int sourceH = 0;
 	private String lastFileName = "";
 	private boolean isRecognized = false;
+	private TextView txvResult;
+	private TextView spch; // for speech translation result
 
 	ProgressDialog progressBar;
 
@@ -74,17 +80,23 @@ public class RecognizeTextActivity extends Activity {
 
 		btnStartCamera = (Button) findViewById(R.id.btnStartCamera);
 		btnExit = (Button) findViewById(R.id.btnExit);
+		txvResult = (TextView) findViewById(R.id.tvResult);
 
 		tv = (TextView) findViewById(R.id.translation);
 		Tbtn = (Button) findViewById(R.id.translation_btn);
+		spch = (TextView) findViewById(R.id.speechResult);
 
 		Tbtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				String  textToBeTranslated = recognizeResult.getText().toString();
-				String languagePair = "en-bn";
-				String res = Translate(textToBeTranslated,languagePair);
-				tv.setText(res);
+				String  textToBeTranslated = recognizeResult.getText().toString();  // text from image
+				String textToBeTranslated2 = txvResult.getText().toString(); // text from speech
+				String languagePair = "en-bn";  // translation option from english to bangla
+				String res = Translate(textToBeTranslated,languagePair);  // image test translation
+				String res2 = Translate(textToBeTranslated2,languagePair); // speech texts are sending for translation
+				tv.setText(res); // image text result
+				spch.setText(res2); // speech text result
+
 			}
 
 			protected String Translate(String textToBeTranslated, String languagePair) {
@@ -145,6 +157,21 @@ public class RecognizeTextActivity extends Activity {
 
 	}
 
+// Methods for getting speech input from the user
+	public void getSpeechInput(View view) {
+
+		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+
+		if (intent.resolveActivity(getPackageManager()) != null) {
+			startActivityForResult(intent, 10);  // sending reqst code 10
+		} else {
+			Toast.makeText(this, "Your Device Don't Support Speech Input", Toast.LENGTH_SHORT).show();
+		}
+	}
+
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -174,6 +201,19 @@ public class RecognizeTextActivity extends Activity {
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+		super.onActivityResult(requestCode, resultCode, data);
+
+// checking if the request case code is 10 means rqst for speech inputs
+		switch (requestCode) {
+			case 10:
+				if (resultCode == RESULT_OK && data != null) {
+					ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+					txvResult.setText(result.get(0));
+				}
+				break;
+		}
+
 		if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
 			BitmapFactory.Options options = new BitmapFactory.Options();
 			Bitmap imageBitmap = BitmapFactory.decodeFile(lastFileName, options);

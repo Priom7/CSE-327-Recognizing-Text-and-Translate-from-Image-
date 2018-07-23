@@ -8,6 +8,10 @@
         "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mic.png.flat",
+        "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_mic.png"
+    },
+    {
         "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_result.xml.flat",
         "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\menu\\result.xml"
     },
