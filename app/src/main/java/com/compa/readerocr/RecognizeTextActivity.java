@@ -42,7 +42,7 @@ import static com.compa.readerocr.utils.CommonUtils.info;
  * 
  * @author Sea
  *
- */
+ *///
 public class RecognizeTextActivity extends Activity {
 	static int REQUEST_IMAGE_CAPTURE = 1;
 	static ProcessImage processImg = new ProcessImage();
