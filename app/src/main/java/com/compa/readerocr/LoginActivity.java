@@ -1,6 +1,8 @@
 package com.compa.readerocr;
 
 import com.compa.readerocr.utils.CommonUtils;
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 
 import android.Manifest;
 import android.app.Activity;
@@ -35,6 +37,12 @@ public class LoginActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
+
+		//animation added for the image view
+		//YoYo.with(Techniques.FadeIn).duration(500).repeat(2).playOn(findViewById(R.id.linear));
+		YoYo.with(Techniques.Wave).duration(5000).repeat(5).playOn(findViewById(R.id.image));
+		//YoYo.with(Techniques.TakingOff).duration(5000).repeat(5).playOn(findViewById(R.id.image));
+		YoYo.with(Techniques.Bounce).duration(5000).repeat(5).playOn(findViewById(R.id.image));
 
 		String[] PERMISSIONS = { Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE,
 				Manifest.permission.INTERNET };

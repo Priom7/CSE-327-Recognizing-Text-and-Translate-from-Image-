@@ -31,6 +31,8 @@ import com.compa.readerocr.TranslatiorBackgroundTask.TranslatiorBackgroundTask;
 import com.compa.readerocr.utils.CharDetectOCR;
 import com.compa.readerocr.utils.CommonUtils;
 import com.compa.readerocr.view.TouchImageView;
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -86,6 +88,12 @@ public class RecognizeTextActivity extends Activity {
 		Tbtn = (Button) findViewById(R.id.translation_btn);
 		spch = (TextView) findViewById(R.id.speechResult);
 
+		//YOYO is the new Added library functions for the animation
+		YoYo.with(Techniques.TakingOff).duration(5000).repeat(4).playOn(findViewById(R.id.image2));
+		YoYo.with(Techniques.Bounce).duration(5000).repeat(4).playOn(findViewById(R.id.image2));
+		YoYo.with(Techniques.BounceInUp).duration(500).repeat(4).playOn(findViewById(R.id.btnSpeak));
+		YoYo.with(Techniques.BounceInUp).duration(500).repeat(4).playOn(findViewById(R.id.translation_btn));
+
 		Tbtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
@@ -96,6 +104,11 @@ public class RecognizeTextActivity extends Activity {
 				String res2 = Translate(textToBeTranslated2,languagePair); // speech texts are sending for translation
 				tv.setText(res); // image text result
 				spch.setText(res2); // speech text result
+
+				//animation is added on the result
+				YoYo.with(Techniques.Wave).duration(500).repeat(2).playOn(tv);
+				YoYo.with(Techniques.ZoomInUp).duration(500).repeat(2).playOn(spch);
+				YoYo.with(Techniques.Wave).duration(5000).repeat(4).playOn(findViewById(R.id.image2));
 
 			}
 

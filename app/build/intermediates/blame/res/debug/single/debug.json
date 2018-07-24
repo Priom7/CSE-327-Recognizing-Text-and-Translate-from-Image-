@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_first.png.flat",
+        "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable-xxhdpi\\first.png"
+    },
+    {
         "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_control.xml.flat",
         "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\layout-land\\control.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
         "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
     },
     {
         "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
@@ -54,6 +62,10 @@
     {
         "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_background.png.flat",
         "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable-hdpi\\background.png"
+    },
+    {
+        "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\src\\main\\res\\drawable\\button.xml"
     },
     {
         "merged": "D:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_control.xml.flat",

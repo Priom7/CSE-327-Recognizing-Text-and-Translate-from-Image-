@@ -22,4 +22,7 @@ dependencies {
     implementation 'com.android.support:support-v4:25.3.1'
     implementation files('libs/classes.jar')
     implementation files('libs/opencv library - 2.4.11.jar')
+    implementation 'com.android.support:support-compat:25.1.1'
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
 }

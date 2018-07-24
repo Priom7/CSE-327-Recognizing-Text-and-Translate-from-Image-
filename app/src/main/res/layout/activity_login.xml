@@ -2,19 +2,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/optionback"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.compa.readerocr.LoginActivity" >
 
+	<ImageView
+		android:id="@+id/image"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/first"/>
+
     <LinearLayout
+		android:id="@+id/linear"
 		android:gravity="center"
 		android:layout_marginTop="150dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#4fffffff"
+        android:background="#de1c1b1b"
         android:orientation="vertical"
         android:padding="10dip"
 		android:elevation="5dp">
@@ -46,9 +52,9 @@
             android:layout_width="fill_parent"
             android:layout_height="55dp"
             android:layout_marginTop="2dip"
-            android:background="#9d4951c9"
+            android:background="#000"
             android:text="@string/text_btn_login"
-            android:textColor="#0a0909" />
+            android:textColor="#fff" />
     </LinearLayout>
 
 </RelativeLayout>

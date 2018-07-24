@@ -3,21 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_dark"
     tools:context="com.compa.readerocr.RecognizeTextActivity" >
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo"/>
 
     <com.compa.readerocr.view.TouchImageView
         android:id="@+id/grid_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="45dp"
-        android:layout_marginTop="55dp"
-        android:src="@drawable/background" />
+        android:layout_marginTop="55dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
         android:orientation="vertical"
         android:paddingBottom="20dp"
         android:paddingTop="20dp" >
@@ -28,14 +31,23 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:hint="@string/text_hint_result" />
+            android:hint="@string/text_hint_result"
+            android:elevation="3dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textColorHighlight="#fff"
+            android:gravity="center"
+            android:background="@drawable/button"/>
 
         <Button
             android:id="@+id/translation_btn"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
+            android:elevation="3dp"
             android:layout_margin="20dp"
-            android:text="Translate"/>
+            android:text="Translate"
+            android:textColor="#ffff"
+            android:background="@drawable/button"/>
 
         <TextView
             android:id="@+id/translation"
@@ -43,7 +55,11 @@
             android:layout_height="match_parent"
             android:layout_margin="20dp"
             android:hint="Result"
-            android:gravity="center"/>
+            android:textColorHint="#ffff"
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:textColorHighlight="#ffff"
+            android:elevation="5dp"/>
 
         <TextView
             android:id="@+id/tvResult"
@@ -51,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:textColor="#000"
+            android:textColor="#ffff"
             android:textSize="26sp"
             android:textStyle="normal"
             android:hint="Listening..."
@@ -61,6 +77,7 @@
             android:id="@+id/btnSpeak"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:elevation="3dp"
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:onClick="getSpeechInput"
@@ -71,7 +88,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Result..."
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:elevation="5dp"/>
     </LinearLayout>
 
     <Button
@@ -81,9 +101,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dip"
-        android:background="#fff"
+        android:background="#33ffffff"
         android:text="@string/text_btn_camera"
-        android:textColor="#ff6347" />
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/btnExit"
@@ -93,20 +113,22 @@
         android:layout_marginRight="1dip"
         android:layout_marginTop="2dip"
         android:layout_toLeftOf="@id/btnStartCamera"
-        android:background="#fff"
+        android:background="#33ffffff"
         android:text="@string/text_btn_exit"
-        android:textColor="#ff6347" />
+        android:elevation="3dp"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/btnSubmit"
+        android:elevation="3dp"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="1dip"
         android:layout_marginTop="2dip"
         android:layout_toRightOf="@id/btnStartCamera"
-        android:background="#fff"
+        android:background="#18ffffff"
         android:text=""
-        android:textColor="#ff6347" android:enabled="false"/>
+        android:textColor="#ffffff" android:enabled="false"/>
 
 </RelativeLayout>

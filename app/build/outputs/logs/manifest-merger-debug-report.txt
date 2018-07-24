@@ -10,6 +10,8 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\User\.gra
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d4b8e6e5ea97171158385e79fe3f8c8a\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\e076bb4f38894f54ee9a4f4182b50cb2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\0a6c739bccf261c135ad851e4fff599b\AndroidManifest.xml:2:1-12:12
 INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:2:1-56:12
@@ -43,6 +45,10 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\c
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6421c433ab212c8e3d679bfda7071b84\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\095b4b71ae53df409fba8c4864ad5aa4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\e076bb4f38894f54ee9a4f4182b50cb2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\e076bb4f38894f54ee9a4f4182b50cb2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\0a6c739bccf261c135ad851e4fff599b\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\User\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\0a6c739bccf261c135ad851e4fff599b\AndroidManifest.xml:8:5-10:41
 INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\Study\Projects\App\AndroidRecognizeText-master\app\src\main\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary

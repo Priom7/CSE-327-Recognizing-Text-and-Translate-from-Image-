@@ -18,12 +18,15 @@ public final class R {
   }
   public static final class drawable {
     public static final int background=0x7f030000;
-    public static final int buttonback=0x7f030001;
-    public static final int camera_shutter=0x7f030002;
-    public static final int ic_launcher=0x7f030003;
-    public static final int ic_mic=0x7f030004;
-    public static final int oopback=0x7f030005;
-    public static final int optionback=0x7f030006;
+    public static final int button=0x7f030001;
+    public static final int buttonback=0x7f030002;
+    public static final int camera_shutter=0x7f030003;
+    public static final int first=0x7f030004;
+    public static final int ic_launcher=0x7f030005;
+    public static final int ic_mic=0x7f030006;
+    public static final int logo=0x7f030007;
+    public static final int oopback=0x7f030008;
+    public static final int optionback=0x7f030009;
   }
   public static final class id {
     public static final int action_settings=0x7f040000;
@@ -34,15 +37,18 @@ public final class R {
     public static final int btnSubmit=0x7f040005;
     public static final int camerapreview=0x7f040006;
     public static final int grid_img=0x7f040007;
-    public static final int languageSpiner=0x7f040008;
-    public static final int menu_settings=0x7f040009;
-    public static final int recognize_result=0x7f04000a;
-    public static final int speechResult=0x7f04000b;
-    public static final int takepicture=0x7f04000c;
-    public static final int thresholdText=0x7f04000d;
-    public static final int translation=0x7f04000e;
-    public static final int translation_btn=0x7f04000f;
-    public static final int tvResult=0x7f040010;
+    public static final int image=0x7f040008;
+    public static final int image2=0x7f040009;
+    public static final int languageSpiner=0x7f04000a;
+    public static final int linear=0x7f04000b;
+    public static final int menu_settings=0x7f04000c;
+    public static final int recognize_result=0x7f04000d;
+    public static final int speechResult=0x7f04000e;
+    public static final int takepicture=0x7f04000f;
+    public static final int thresholdText=0x7f040010;
+    public static final int translation=0x7f040011;
+    public static final int translation_btn=0x7f040012;
+    public static final int tvResult=0x7f040013;
   }
   public static final class layout {
     public static final int activity_android_camera=0x7f050000;
@@ -58,15 +64,16 @@ public final class R {
   }
   public static final class string {
     public static final int action_settings=0x7f070000;
-    public static final int app_name=0x7f070001;
-    public static final int text_btn_camera=0x7f070002;
-    public static final int text_btn_exit=0x7f070003;
-    public static final int text_btn_login=0x7f070004;
-    public static final int text_btn_take_pic=0x7f070005;
-    public static final int text_hint_result=0x7f070006;
-    public static final int text_lb_select_language=0x7f070007;
-    public static final int title_activity_login=0x7f070008;
-    public static final int title_activity_recognize=0x7f070009;
+    public static final int android_animations_lib_name=0x7f070001;
+    public static final int app_name=0x7f070002;
+    public static final int text_btn_camera=0x7f070003;
+    public static final int text_btn_exit=0x7f070004;
+    public static final int text_btn_login=0x7f070005;
+    public static final int text_btn_take_pic=0x7f070006;
+    public static final int text_hint_result=0x7f070007;
+    public static final int text_lb_select_language=0x7f070008;
+    public static final int title_activity_login=0x7f070009;
+    public static final int title_activity_recognize=0x7f07000a;
   }
   public static final class style {
     public static final int AppBaseTheme=0x7f080000;
