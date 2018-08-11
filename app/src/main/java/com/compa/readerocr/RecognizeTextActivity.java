@@ -54,6 +54,7 @@ public class RecognizeTextActivity extends Activity {
 	Button btnExit;
 	TextView tv;
 	Button Tbtn;
+	Button Tbtn2; // new button for ENglish to spanish
 
 	private String language;
 	private TouchImageView image;
@@ -87,6 +88,7 @@ public class RecognizeTextActivity extends Activity {
 		tv = (TextView) findViewById(R.id.translation);
 		Tbtn = (Button) findViewById(R.id.translation_btn);
 		spch = (TextView) findViewById(R.id.speechResult);
+		Tbtn2  = (Button) findViewById(R.id.translation_btn2);
 
 		//YOYO is the new Added library functions for the animation
 		YoYo.with(Techniques.TakingOff).duration(5000).repeat(4).playOn(findViewById(R.id.image2));
@@ -135,6 +137,46 @@ public class RecognizeTextActivity extends Activity {
 		});
 
 
+		// This part is done by Sharif Ahmed ID: 1410286042
+
+		Tbtn2.setOnClickListener(new View.OnClickListener() { // new onclick method for English to spanish
+            @Override
+            public void onClick(View view) {
+                String  textToBeTranslated = recognizeResult.getText().toString();  // text from image
+                String textToBeTranslated2 = txvResult.getText().toString(); // text from speech
+                String languagePair = "en-es";  // translation option from english to Espanish
+                String res = Translate(textToBeTranslated,languagePair);  // image test translation
+                String res2 = Translate(textToBeTranslated2,languagePair); // speech texts are sending for translation
+                tv.setText(res); // image text result
+                spch.setText(res2); // speech text result
+
+                //animation is added on the result
+                YoYo.with(Techniques.Wave).duration(500).repeat(2).playOn(tv);
+                YoYo.with(Techniques.ZoomInUp).duration(500).repeat(2).playOn(spch);
+                YoYo.with(Techniques.Wave).duration(5000).repeat(4).playOn(findViewById(R.id.image2));
+            }
+
+            protected String Translate(String textToBeTranslated, String languagePair) {
+
+
+                TranslatiorBackgroundTask translatorBackgroundTask= new TranslatiorBackgroundTask(context);
+                String translationResult = null;
+                try {
+                    translationResult = translatorBackgroundTask.execute(textToBeTranslated ,languagePair).get();
+                    return translationResult;
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                }
+
+                //Log.d("Translation Result",translationResult); // Logs the result in Android Monitor
+                // tv.setText(translationResult);
+
+
+                return null;
+            }
+        });
 
 		btnStartCamera.setOnTouchListener(new OnTouchListener() {
 
