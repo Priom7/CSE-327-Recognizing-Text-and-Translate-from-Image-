@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sat Aug 11 12:50:05 BDT 2018
-0.baseType=DIRECTORY
-0.base=D\:\\Study\\Projects\\App\\AndroidRecognizeText-master\\app\\build\\intermediates\\assets\\debug
-0.path=CSDL/eng.traineddata
-0.set=ASSET
-count=1
