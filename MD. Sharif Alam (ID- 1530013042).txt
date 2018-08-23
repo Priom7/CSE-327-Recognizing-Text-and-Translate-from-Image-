@@ -1,0 +1,21 @@
+•	Task 001 : Recognize text from image 
+a.	I have used an open source code which implemented Android OpenCv OCR for recognizing texts from images.
+
+•	Task 002 : App design 
+a.	Then edited the XML file and changed the design of the app according to our projects requirements.
+b.	Added some basic animations for giving the application more responsive and better look.
+
+•	Task 003 : Translation and implementing Yandex API
+a.	Then added Yandex Api for translating the texts from English to Bangla. For using Yandex api at first I had to open an account in their website and generate a key for my application (free).  Then, I have added a package and created a class named TranslateBackground for handling my translation tasks. 
+b.	Then I have added a new method in the main activity class named Translation.
+c.	This api can translate text into 60+ languages.
+
+•	Task 004 : Speech to Text 
+a.	For this I have created  methods SpeechToText  then displayed the recognized text into an TextView and later on used that texts from text view for the speech translation tasks 
+b.	For the speech translation task I have reused the Translation methods. 
+
+
+•	References and Resources :
+a.	Video demo: https://youtu.be/EOVzisvkZQE  (Task 001)
+b.	Yandex API : https://tech.yandex.com/translate/ (Task 003)
+c.	Our updated project video demo : https://www.youtube.com/watch?v=OXSLNfYBeBc&t=2s 
