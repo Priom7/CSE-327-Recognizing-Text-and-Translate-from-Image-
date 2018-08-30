@@ -60,6 +60,17 @@
             android:textColor="#ffff"
             android:background="@drawable/button"/>
 
+
+        <Button
+            android:id="@+id/translation_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:elevation="3dp"
+            android:layout_margin="20dp"
+            android:text="Translate To German"
+            android:textColor="#ffff"
+            android:background="@drawable/button"/>
+
         <TextView
             android:id="@+id/translation"
             android:layout_width="match_parent"

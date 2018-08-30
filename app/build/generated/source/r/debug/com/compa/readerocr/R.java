@@ -49,7 +49,8 @@ public final class R {
     public static final int translation=0x7f040011;
     public static final int translation_btn=0x7f040012;
     public static final int translation_btn2=0x7f040013;
-    public static final int tvResult=0x7f040014;
+    public static final int translation_btn3=0x7f040014;
+    public static final int tvResult=0x7f040015;
   }
   public static final class layout {
     public static final int activity_android_camera=0x7f050000;
